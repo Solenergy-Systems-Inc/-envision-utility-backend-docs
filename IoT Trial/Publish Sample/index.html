@@ -12,7 +12,7 @@
         <link rel="prev" href="../../Core/BaseAuditDTO/">
       
       
-        <link rel="next" href="../Sample%20Topic%20For%20Subscribing/">
+        <link rel="next" href="../Subscribe%20Sample/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Sample Topic For Publishing - Envision Utility</title>
+        <title>Publish Sample - Envision Utility</title>
       
     
     
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sample Topic For Publishing
+              Publish Sample
             
           </span>
         </div>
@@ -326,7 +326,7 @@
           
   
   <span class="md-ellipsis">
-    Sample Topic For Publishing
+    Publish Sample
   </span>
   
 
@@ -337,7 +337,7 @@
         
   
   <span class="md-ellipsis">
-    Sample Topic For Publishing
+    Publish Sample
   </span>
   
 
@@ -407,6 +407,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#note" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -423,11 +432,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Sample%20Topic%20For%20Subscribing/" class="md-nav__link">
+      <a href="../Subscribe%20Sample/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Sample Topic For Subscribing
+    Subscribe Sample
   </span>
   
 
@@ -519,6 +528,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#note" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -534,15 +552,10 @@
                   
 
 
-  <h1>Sample Topic For Publishing</h1>
+  <h1>Publish Sample</h1>
 
-<p>Sending a message here will trigger a rule that:</p>
-<ul>
-<li>Saves the message content to the DB</li>
-<li>Sends a message to the <a href="Sample Topic For Subscribing"><code>anime/latest</code></a> topic. </li>
-</ul>
+<p>There are two ways to publish a message with AWS.</p>
 <h2 id="option-1-via-topic">Option 1: Via Topic</h2>
-<p>There are two ways to publish a message with AWS. This seems to be the common one.</p>
 <pre><code>anime/add
 </code></pre>
 <h2 id="option-2-via-basic-ingest">Option 2: Via Basic Ingest</h2>
@@ -637,6 +650,12 @@ messaging costs</strong>.</p>
   &quot;rating&quot;: 10
 }
 </code></pre>
+<h2 id="note">Note</h2>
+<p>Sending a message here will trigger a rule that:</p>
+<ul>
+<li>Saves the message content to the DB if message format is correct.</li>
+<li>Sends a message to the <a href="../Subscribe%20Sample/"><code>anime/latest</code></a> topic.</li>
+</ul>
 
 
 
