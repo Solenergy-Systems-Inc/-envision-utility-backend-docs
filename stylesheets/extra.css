@@ -1,3 +1,7 @@
-*:not(table) div, li {
+.md-content * {
     text-align: justify;
+}
+
+.doc-md-description p {
+    white-space: pre;
 }
