@@ -12,6 +12,8 @@
         <link rel="prev" href="../../Generation%20Forecast/%5BGET%5D%20powerPredictionCSV/">
       
       
+        <link rel="next" href="../%5BPOST%5D%20logout/">
+      
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
@@ -432,6 +434,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%5BPOST%5D%20logout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    [POST] logout
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -527,6 +550,10 @@
 
 
   <h1>[POST] login</h1>
+
+<pre><code>/api/login
+</code></pre>
+
 
 <div class="doc doc-object doc-class">
 
@@ -887,12 +914,22 @@
       </thead>
       <tbody>
           <tr class="doc-section-item">
+            <td><code><span title="modules.user.enums.UserTypeEnum.UserTypeEnum.BASIC">BASIC</span></code></td>
+            <td>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Can only view live data. No sitesOverview or plant generation. Has historical data but can't backtrack, has weather forecast</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
             <td><code><span title="modules.user.enums.UserTypeEnum.UserTypeEnum.EXECUTIVE">EXECUTIVE</span></code></td>
             <td>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>entry level user. Can only view realtime data and graphs</p>
+                <p>All basic features and statistics and historical backtracking.</p>
               </div>
             </td>
           </tr>
