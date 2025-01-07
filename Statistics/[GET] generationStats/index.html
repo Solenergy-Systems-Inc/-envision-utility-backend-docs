@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../%5BGET%5D%20weatherData/">
+        <link rel="prev" href="../../Monitoring/%5BGET%5D%20weatherForecast/">
       
       
-        <link rel="next" href="../../Statistics/%5BGET%5D%20generationStats/">
+        <link rel="next" href="../../User/%5BPOST%5D%20login/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>[GET] weatherForecast - Envision Utility</title>
+        <title>[GET] generationStats - Envision Utility</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="md-skip">
+        <a href="#modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsRequestDTO" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              [GET] weatherForecast
+              [GET] generationStats
             
           </span>
         </div>
@@ -506,19 +506,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -532,7 +530,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Monitoring
@@ -546,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20feederMap/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20feederMap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -567,7 +565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20feederMapData/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20feederMapData/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -588,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20inverterInfo/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20inverterInfo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -609,7 +607,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20inverterStationInfo/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20inverterStationInfo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -630,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20inverterStations/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20inverterStations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -651,7 +649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20weatherData/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20weatherData/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -664,6 +662,71 @@
   
 
               
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Monitoring/%5BGET%5D%20weatherForecast/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    [GET] weatherForecast
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Statistics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Statistics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -683,7 +746,7 @@
           
   
   <span class="md-ellipsis">
-    [GET] weatherForecast
+    [GET] generationStats
   </span>
   
 
@@ -694,7 +757,7 @@
         
   
   <span class="md-ellipsis">
-    [GET] weatherForecast
+    [GET] generationStats
   </span>
   
 
@@ -714,29 +777,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="md-nav__link">
+  <a href="#modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsRequestDTO" class="md-nav__link">
     <span class="md-ellipsis">
-      WeatherForecastRequestDTO
+      GenerationStatsRequestDTO
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO" class="md-nav__link">
+  <a href="#modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsResponseDTO" class="md-nav__link">
     <span class="md-ellipsis">
-      RequestForecastFromAPIResponseDTO
+      GenerationStatsResponseDTO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GenerationStatsResponseDTO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO" class="md-nav__link">
+    <span class="md-ellipsis">
+      DSGenerationStatsDTO
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#expected-error-messages" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#modules.monitoring.enums.SiteStatusEnum.SiteStatusEnum" class="md-nav__link">
     <span class="md-ellipsis">
-      Expected error messages:
+      SiteStatusEnum
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -744,69 +822,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Statistics
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            Statistics
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Statistics/%5BGET%5D%20generationStats/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    [GET] generationStats
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -949,29 +964,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="md-nav__link">
+  <a href="#modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsRequestDTO" class="md-nav__link">
     <span class="md-ellipsis">
-      WeatherForecastRequestDTO
+      GenerationStatsRequestDTO
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO" class="md-nav__link">
+  <a href="#modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsResponseDTO" class="md-nav__link">
     <span class="md-ellipsis">
-      RequestForecastFromAPIResponseDTO
+      GenerationStatsResponseDTO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GenerationStatsResponseDTO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO" class="md-nav__link">
+    <span class="md-ellipsis">
+      DSGenerationStatsDTO
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#expected-error-messages" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#modules.monitoring.enums.SiteStatusEnum.SiteStatusEnum" class="md-nav__link">
     <span class="md-ellipsis">
-      Expected error messages:
+      SiteStatusEnum
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -990,9 +1020,9 @@
                   
 
 
-  <h1>[GET] weatherForecast</h1>
+  <h1>[GET] generationStats</h1>
 
-<pre><code>/api/monitoring/weatherForecast
+<pre><code>/api/statistics/generationStats
 </code></pre>
 
 
@@ -1000,8 +1030,8 @@
 
 
 
-<h3 id="modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="doc doc-heading">
-            <code>WeatherForecastRequestDTO</code>
+<h3 id="modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsRequestDTO" class="doc doc-heading">
+            <code>GenerationStatsRequestDTO</code>
 
 
 </h3>
@@ -1025,13 +1055,24 @@
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code><span title="modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO.site_id">site_id</span></code></td>
+            <td><code><span title="modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsRequestDTO.site_id">site_id</span></code></td>
             <td>
-                  <code>str</code>
+                  <code>[str]</code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>unique id associated to the utility site</p>
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsRequestDTO.selected_date">selected_date</span></code></td>
+            <td>
+                  <code>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>in format "YYYY-MM-DD"</p>
               </div>
             </td>
           </tr>
@@ -1063,8 +1104,8 @@
 
 
 
-<h3 id="modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO" class="doc doc-heading">
-            <code>RequestForecastFromAPIResponseDTO</code>
+<h3 id="modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsResponseDTO" class="doc doc-heading">
+            <code>GenerationStatsResponseDTO</code>
 
 
 </h3>
@@ -1088,24 +1129,24 @@
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code><span title="modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO.am_weather">am_weather</span></code></td>
+            <td><code><span title="modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsResponseDTO.site_status">site_status</span></code></td>
             <td>
-                  <code>str</code>
+                  <code><a class="autorefs autorefs-internal" title="modules.monitoring.enums.SiteStatusEnum.SiteStatusEnum" href="#modules.monitoring.enums.SiteStatusEnum.SiteStatusEnum">SiteStatusEnum</a></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>morning weather forecast</p>
+                
               </div>
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code><span title="modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO.pm_weather">pm_weather</span></code></td>
+            <td><code><span title="modules.statistics.dtos.GenerationStatsDTOs.GenerationStatsResponseDTO.generation_stats">generation_stats</span></code></td>
             <td>
-                  <code>str</code>
+                  <code><a class="autorefs autorefs-internal" title="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO" href="#modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO">DSGenerationStatsDTO</a></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>afternoon weather forecast</p>
+                <p>DSGenerationStatsDTO</p>
               </div>
             </td>
           </tr>
@@ -1131,10 +1172,197 @@
 
     </div>
 
-</div><h3 id="expected-error-messages">Expected error messages:</h3>
-<ul>
-<li>SITE_DOES_NOT_EXIST: The site id given does not match any of the registered sites</li>
-</ul>
+</div>
+
+<div class="doc doc-object doc-class">
+
+
+
+<h4 id="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO" class="doc doc-heading">
+            <code>DSGenerationStatsDTO</code>
+
+
+</h4>
+
+
+    <div class="doc doc-contents first">
+            <p class="doc doc-class-bases">
+              Bases: <code><span title="pydantic.BaseModel">BaseModel</span></code></p>
+
+
+
+
+<p><span class="doc-section-title">Attributes:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO.month_total">month_total</span></code></td>
+            <td>
+                  <code>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO.sync_time">sync_time</span></code></td>
+            <td>
+                  <code>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>date and time in the format of "YYYY-MM-DD HH:MM:SS" or ""</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO.desync_time">desync_time</span></code></td>
+            <td>
+                  <code>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>date and time in the format of "YYYY-MM-DD HH:MM:SS" or ""</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO.peak_power">peak_power</span></code></td>
+            <td>
+                  <code>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO.peak_time">peak_time</span></code></td>
+            <td>
+                  <code>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>time in the format of "HH:MM:SS"</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.statistics.dtos.DSStatisticsDTOs.DSGenerationStatsDTO.irradiance">irradiance</span></code></td>
+            <td>
+                  <code>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-class">
+
+
+
+<h4 id="modules.monitoring.enums.SiteStatusEnum.SiteStatusEnum" class="doc doc-heading">
+            <code>SiteStatusEnum</code>
+
+
+</h4>
+
+
+    <div class="doc doc-contents first">
+            <p class="doc doc-class-bases">
+              Bases: <code>str</code>, <code><span title="enum.Enum">Enum</span></code></p>
+
+
+
+
+<p><span class="doc-section-title">Attributes:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.monitoring.enums.SiteStatusEnum.SiteStatusEnum.Online">Online</span></code></td>
+            <td>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>site is online</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.monitoring.enums.SiteStatusEnum.SiteStatusEnum.Offline">Offline</span></code></td>
+            <td>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>site is offline</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+</div>
 
 
 

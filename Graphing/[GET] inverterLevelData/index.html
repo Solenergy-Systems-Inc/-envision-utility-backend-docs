@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../%5BGET%5D%20weatherData/">
+        <link rel="prev" href="../../Generation%20Forecast/%5BGET%5D%20powerPredictionCSV/">
       
       
-        <link rel="next" href="../../Statistics/%5BGET%5D%20generationStats/">
+        <link rel="next" href="../%5BGET%5D%20irradianceGraph/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>[GET] weatherForecast - Envision Utility</title>
+        <title>[GET] inverterLevelData - Envision Utility</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="md-skip">
+        <a href="#modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              [GET] weatherForecast
+              [GET] inverterLevelData
             
           </span>
         </div>
@@ -401,17 +401,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -425,7 +427,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Graphing
@@ -436,10 +438,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Graphing/%5BGET%5D%20inverterLevelData/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    [GET] inverterLevelData
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -448,6 +468,105 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO" class="md-nav__link">
+    <span class="md-ellipsis">
+      InverterLevelDataRequestDTO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="InverterLevelDataRequestDTO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modules.graphing.enums.GraphTypeEnum.GraphTypeEnum" class="md-nav__link">
+    <span class="md-ellipsis">
+      GraphTypeEnum
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataResponseDTO" class="md-nav__link">
+    <span class="md-ellipsis">
+      InverterLevelDataResponseDTO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="InverterLevelDataResponseDTO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO" class="md-nav__link">
+    <span class="md-ellipsis">
+      DSGraphStatisticsDTO
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important Notes:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Important Notes:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#single-day-statistical-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single day statistical parameters:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-day-statistical-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-day statistical parameters:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -460,7 +579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Graphing/%5BGET%5D%20irradianceGraph/" class="md-nav__link">
+      <a href="../%5BGET%5D%20irradianceGraph/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -481,7 +600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Graphing/%5BGET%5D%20meterLevelData/" class="md-nav__link">
+      <a href="../%5BGET%5D%20meterLevelData/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -506,19 +625,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -532,7 +649,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Monitoring
@@ -546,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20feederMap/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20feederMap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -567,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20feederMapData/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20feederMapData/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -588,7 +705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20inverterInfo/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20inverterInfo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -609,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20inverterStationInfo/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20inverterStationInfo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -630,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20inverterStations/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20inverterStations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -651,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%5BGET%5D%20weatherData/" class="md-nav__link">
+      <a href="../../Monitoring/%5BGET%5D%20weatherData/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -669,28 +786,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    [GET] weatherForecast
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Monitoring/%5BGET%5D%20weatherForecast/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -699,51 +798,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="md-nav__link">
-    <span class="md-ellipsis">
-      WeatherForecastRequestDTO
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO" class="md-nav__link">
-    <span class="md-ellipsis">
-      RequestForecastFromAPIResponseDTO
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#expected-error-messages" class="md-nav__link">
-    <span class="md-ellipsis">
-      Expected error messages:
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -949,29 +1003,83 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="md-nav__link">
+  <a href="#modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO" class="md-nav__link">
     <span class="md-ellipsis">
-      WeatherForecastRequestDTO
+      InverterLevelDataRequestDTO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="InverterLevelDataRequestDTO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modules.graphing.enums.GraphTypeEnum.GraphTypeEnum" class="md-nav__link">
+    <span class="md-ellipsis">
+      GraphTypeEnum
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO" class="md-nav__link">
-    <span class="md-ellipsis">
-      RequestForecastFromAPIResponseDTO
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#expected-error-messages" class="md-nav__link">
+  <a href="#modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataResponseDTO" class="md-nav__link">
     <span class="md-ellipsis">
-      Expected error messages:
+      InverterLevelDataResponseDTO
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="InverterLevelDataResponseDTO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO" class="md-nav__link">
+    <span class="md-ellipsis">
+      DSGraphStatisticsDTO
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important Notes:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Important Notes:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#single-day-statistical-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single day statistical parameters:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-day-statistical-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-day statistical parameters:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -990,9 +1098,9 @@
                   
 
 
-  <h1>[GET] weatherForecast</h1>
+  <h1>[GET] inverterLevelData</h1>
 
-<pre><code>/api/monitoring/weatherForecast
+<pre><code>/api/graphing/inverterLevelData
 </code></pre>
 
 
@@ -1000,8 +1108,8 @@
 
 
 
-<h3 id="modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO" class="doc doc-heading">
-            <code>WeatherForecastRequestDTO</code>
+<h3 id="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO" class="doc doc-heading">
+            <code>InverterLevelDataRequestDTO</code>
 
 
 </h3>
@@ -1025,13 +1133,57 @@
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code><span title="modules.monitoring.dtos.WeatherForecastDTOs.WeatherForecastRequestDTO.site_id">site_id</span></code></td>
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO.start_datetime">start_datetime</span></code></td>
             <td>
                   <code>str</code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>unique id associated to the utility site</p>
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO.end_datetime">end_datetime</span></code></td>
+            <td>
+                  <code>str</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO.inverter_station_id">inverter_station_id</span></code></td>
+            <td>
+                  <code>str</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>ID assigned to the inverter station</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO.inverter_id">inverter_id</span></code></td>
+            <td>
+                  <code>str</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>unique device ID assigned to an inverter</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataRequestDTO.graph_type">graph_type</span></code></td>
+            <td>
+                  <code><span title="typing_extensions.Annotated">Annotated</span>[<a class="autorefs autorefs-internal" title="modules.graphing.enums.GraphTypeEnum.GraphTypeEnum" href="#modules.graphing.enums.GraphTypeEnum.GraphTypeEnum">GraphTypeEnum</a>, <span title="pydantic.BeforeValidator">BeforeValidator</span>(lambda x: <span title="x.upper">upper</span>())]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>GraphTypeEnum</p>
               </div>
             </td>
           </tr>
@@ -1063,16 +1215,16 @@
 
 
 
-<h3 id="modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO" class="doc doc-heading">
-            <code>RequestForecastFromAPIResponseDTO</code>
+<h4 id="modules.graphing.enums.GraphTypeEnum.GraphTypeEnum" class="doc doc-heading">
+            <code>GraphTypeEnum</code>
 
 
-</h3>
+</h4>
 
 
     <div class="doc doc-contents first">
             <p class="doc doc-class-bases">
-              Bases: <code><span title="pydantic.BaseModel">BaseModel</span></code></p>
+              Bases: <code>str</code>, <code><span title="enum.Enum">Enum</span></code></p>
 
 
 
@@ -1088,24 +1240,22 @@
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code><span title="modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO.am_weather">am_weather</span></code></td>
+            <td><code><span title="modules.graphing.enums.GraphTypeEnum.GraphTypeEnum.LINE">LINE</span></code></td>
             <td>
-                  <code>str</code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>morning weather forecast</p>
+                <p>5 minute interval for data if single day and 15 minutes for multiple days</p>
               </div>
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code><span title="modules.monitoring.services.requestWeatherForecastFromAPI.RequestForecastFromAPIResponseDTO.pm_weather">pm_weather</span></code></td>
+            <td><code><span title="modules.graphing.enums.GraphTypeEnum.GraphTypeEnum.BAR">BAR</span></code></td>
             <td>
-                  <code>str</code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>afternoon weather forecast</p>
+                <p>1 hour interval for data if single day and 1-day interval for multiple days</p>
               </div>
             </td>
           </tr>
@@ -1131,9 +1281,338 @@
 
     </div>
 
-</div><h3 id="expected-error-messages">Expected error messages:</h3>
+</div>
+
+<div class="doc doc-object doc-class">
+
+
+
+<h3 id="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataResponseDTO" class="doc doc-heading">
+            <code>InverterLevelDataResponseDTO</code>
+
+
+</h3>
+
+
+    <div class="doc doc-contents first">
+            <p class="doc doc-class-bases">
+              Bases: <code><span title="pydantic.BaseModel">BaseModel</span></code></p>
+
+
+
+
+<p><span class="doc-section-title">Attributes:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataResponseDTO.data">data</span></code></td>
+            <td>
+                  <code>list</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>list of lists containing datapoints</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataResponseDTO.order">order</span></code></td>
+            <td>
+                  <code>list</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>list of strings containing the order of the data</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.InverterLevelDataDTOs.InverterLevelDataResponseDTO.statistics">statistics</span></code></td>
+            <td>
+                  <code><a class="autorefs autorefs-internal" title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO" href="#modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO">DSGraphStatisticsDTO</a></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>DSGraphStatisticsDTO</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-class">
+
+
+
+<h4 id="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO" class="doc doc-heading">
+            <code>DSGraphStatisticsDTO</code>
+
+
+</h4>
+
+
+    <div class="doc doc-contents first">
+            <p class="doc doc-class-bases">
+              Bases: <code><span title="pydantic.BaseModel">BaseModel</span></code></p>
+
+
+
+
+<p><span class="doc-section-title">Attributes:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.day_energy">day_energy</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>total daily energy</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.total_energy">total_energy</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>total energy over a period of time</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.average_irradiance">average_irradiance</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>average irradiance over a period of time</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.average_total_irradiance">average_total_irradiance</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.total_irradiance">total_irradiance</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.max_peak_power">max_peak_power</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.max_peak_power_datetime">max_peak_power_datetime</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.average_peak_power">average_peak_power</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.average_peak_power_datetime">average_peak_power_datetime</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.day_peak_power">day_peak_power</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.day_peak_power_datetime">day_peak_power_datetime</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.month_highest_daily_energy">month_highest_daily_energy</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.highest_daily_energy">highest_daily_energy</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.highest_hourly_energy">highest_hourly_energy</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.average_daily_energy">average_daily_energy</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[float]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.sync_time">sync_time</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>time when power plant starts generating electricity for the day</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="modules.graphing.dtos.DSGraphingDTOs.DSGraphStatisticsDTO.desync_time">desync_time</span></code></td>
+            <td>
+                  <code><span title="typing.Optional">Optional</span>[str]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>time when power plant stops generating electricity</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+</div><h3 id="important-notes">Important Notes:</h3>
+<h4 id="single-day-statistical-parameters">Single day statistical parameters:</h4>
 <ul>
-<li>SITE_DOES_NOT_EXIST: The site id given does not match any of the registered sites</li>
+<li>Ask JP</li>
+</ul>
+<h4 id="multi-day-statistical-parameters">Multi-day statistical parameters:</h4>
+<ul>
+<li>Ask JP</li>
 </ul>
 
 
